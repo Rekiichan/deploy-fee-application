@@ -1,4 +1,4 @@
-from flask import Flask, flash, request, redirect, url_for
+from flask import Flask, request
 from flask_cors import CORS, cross_origin
 from model import predict
 import cv2 as cv
@@ -30,4 +30,5 @@ def home():
 # Start Backend
 if __name__ == '__main__':
     app.run()
+    
 

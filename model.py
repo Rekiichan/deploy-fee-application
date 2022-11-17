@@ -2,7 +2,7 @@
 # from statistics import StatisticsError
 # import statistics
 # from google.colab.patches import cv2_imshow
-from os.path import splitext, basename
+from os.path import splitext
 import numpy as np
 import cv2
 # import glob
@@ -10,13 +10,9 @@ from sklearn.preprocessing import LabelEncoder
 # from tensorflow.keras.applications.mobilenet_v2 import preprocess_input
 # from tensorflow.keras.preprocessing.image import load_img, img_to_array
 from tensorflow.keras.models import model_from_json
-import matplotlib.gridspec as gridspec
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
-
-
-
 
 # required library
 # from local_utils import detect_lp
